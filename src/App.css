@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bg {
+  margin: 0;
+  /* The image used */
+  background-image: url("aky.webp");
+
+  /* Full height */
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+input {
+    font-size: x-large;
+    background: transparent;
+    border-radius: 7px;
+    margin-bottom: 5%;
+    opacity: 0.6;
+    border: 1px solid black;
+}
+.add-btn {
+  font-size: larger;
+  font-weight: bold;
+  border-radius: 7px;
+  background: transparent;
+  cursor: pointer;
+}
+.input-and-btn {
+  /* border: solid; */
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.details {
+    border: 1px solid;
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+}
+
+p {
+  font-size: large;
+}
+.next-days-div {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.next-days {
+  border: 1px solid;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+}
