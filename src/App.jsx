@@ -1,8 +1,6 @@
 import React from "react";
 import "./App.css";
 
-
-
 function App() {
   const [weather, setWeather] = React.useState([]);
   const [input, setInput] = React.useState("");
